@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+	<link rel="stylesheet" href="../styles.css">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- barra de navegacion --> 
+	<header>
+		<div class="logo"><img src="../assets/sub-blanco.png" alt=></div>
+		<nav>
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+                <li><a href="productos.html">PRODCUTOS</a></li>
+				<li><a href="cursos.html">CURSOS</a></li>
+				<li><a href="promociones.html">PROMOCIONES</a></li>
+				<li><a class="seccionSeleccionada"  href="contacto.html">CONTACTO</a></li>
+				<li><a href="nosotros.html">NOSOTROS</a></li>
+			</ul>
+
+    
+</header>
+    <!-- Fin barra de navegacion --> 
+
+	<!-- Inicio formulario de contacto -->
+	<section class="formCentrado">
+			<form action="">
+			<input class="inputText" type="text" placeholder="Ingresa tu Nombre"><br><br>
+                <input class="inputText" type="text" placeholder="Ingresa tu Apellido"><br><br>
+				<input class="inputText" type="email" placeholder="ejemplo@gmail.com" name="email"><br><br>
+				</label>
+				<label class="labelContacto" for="Observaciones"> Mensaje:</label><br>
+					<textarea class="inputText" placeholder="Decinos lo que necesites"></textarea>
+				
+				<div class="parrafoContacto">
+					<br> Cuando querés que te contactemos <br>
+					<br><div>Hoy o mañana
+						<input type="radio" name="lado" value="izquierda">
+					</div>
+					<div>Semana que viene
+						<input type="radio" name="lado" value="derecha">
+					</div>
+				</div>
+				<br><div class="parrafoContacto"> Cómo preferis que te contactemos? </div> 
+				<select class="inputText" name="letra" id="letra"> 
+					<option value="mail">MAIL</option>
+					<option value="telefono">TELEFONO</option>
+					<option value="whatsapp">WHATSAPP</option>
+				</select><br><br>
+				<div>Queres recibir más información sobre nuestros productos o servicios?
+				<input type="checkbox" name="acepta" value="1"></div><br>
+				<input class="inmputBotones" type="submit" value="Enviar informacion">
+				<input type="reset" value="Limpiar formulario">
+			</form>
+	</section>
+	<!-- cierre de form contacto -->
+
+    <!-- inicio de footer --> 
+
+<footer id="submarine">
+    <h3>LOGO</h3>
+    <h3>RRSS</h3>
+    <h3>CONTACTO</h3>
+</footer>
+
+<!-- fin de footer --> 
+</body>
+</html>
